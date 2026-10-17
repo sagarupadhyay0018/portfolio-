@@ -1,0 +1,7 @@
+:root { --font-sans: 'Segoe UI Variable', 'Segoe UI', system-ui, -apple-system, sans-serif; --font-mono: 'Cascadia Code', 'SFMono-Regular', Consolas, monospace; --font-display: Impact, Haettenschweiler, 'Arial Narrow Bold', 'Arial Narrow', sans-serif; color-scheme: dark; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 24px; overflow-x: clip; }
+body { margin: 0; background: #050505; color: #f3eeee; font-family: var(--font-sans); -webkit-font-smoothing: antialiased; overflow-x: clip; }
+::selection { background: #c91429; color: #fff; }
+a:focus-visible, button:focus-visible { outline: 2px solid #f04759; outline-offset: 4px; }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; } }
